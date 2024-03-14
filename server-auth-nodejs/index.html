@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Barra no topo -->
+  <div class="top-bar">
+    <div class="left">
+      Nome da Empresa
+    </div>
+    <div class="center">
+      Logo
+    </div>
+    <div class="right">
+      <button>Login</button>
+    </div>
+  </div>
+
+  <!-- Conteúdo principal -->
+  <div class="main-content">
+    <!-- Barra lateral -->
+    <div class="sidebar">
+      <a href="#" class="active">Opção 1</a>
+      <a href="#">Opção 2</a>
+      <a href="#">Opção 3</a>
+      <a href="#">Opção 4</a>
+      <a href="#">Opção 5</a>
+      <a href="#">Opção 6</a>
+      <a href="#">Opção 7</a>
+      <a href="#">Opção 8</a>
+      <a href="#">Opção 9</a>
+      <a href="#">Opção 10</a>
+    </div>
+
+    <!-- Elemento onde o mapa será adicionado -->
+    <div id="map-container">
+      <div id="map"></div>
+      <!-- Menu -->
+      <div class="menu">
+        <a href="#" class="active">Opção 1</a>
+        <a href="#">Opção 2</a>
+        <a href="#">Opção 3</a>
+        <a href="#">Opção 4</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <div class="footer">
+    <div class="centered">
+      Em desenvolvimento por: Seu Nome
+    </div>
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDb-5LpSRytYHB8SLCHG8MHj6FxljLj1TQ"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/earthengine/0.1.226/earthengine-api.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

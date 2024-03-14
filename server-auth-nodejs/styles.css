@@ -1,0 +1,128 @@
+/* Estilos para o contêiner do mapa */
+#map-container {
+  position: relative;
+  height: 400px; /* Altura do contêiner do mapa */
+  width: 40%; /* Largura do contêiner do mapa - ajuste conforme necessário */
+  margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+  margin-top: 200px; /* Margem superior para afastar o mapa do topo */
+  margin-right: 8%; /* Margem direita para afastar o mapa da lateral */
+}
+
+/* Estilos para o mapa */
+#map {
+  height: 100%; /* Altura do mapa */
+  width: 100%; /* Largura do mapa */
+}
+
+/* Estilos para o menu */
+
+.menu {
+  position: absolute;
+  top: -50px; /* Posiciona o menu acima do mapa */
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex; /* Ativa o layout flexível */
+  justify-content: space-between; /* Distribui o espaço entre os itens do menu */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+.menu a.active {
+  color: blue;
+}
+
+/* Estilos para a barra lateral */
+.sidebar {
+  width: 200px;
+  background-color: #8f8f8f;
+  height: calc(100% - 160px); /* Altura total da janela menos a altura da barra superior e do rodapé */
+  position: fixed;
+  top: 90px; /* Altura da barra superior */
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Estilos para os links da barra lateral */
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+}
+
+/* Estilo ativo para os links da barra lateral */
+.sidebar a.active {
+  background-color: #6f6f6f;
+}
+
+/* Estilo de hover para os links da barra lateral */
+.sidebar a:hover {
+  background-color: #6f6f6f;
+}
+
+/* Estilos para o conteúdo principal */
+.main-content {
+  margin-left: 200px; /* Largura da barra lateral */
+}
+
+/* Estilos para a barra superior */
+/* Estilos para a barra superior */
+/* Estilos para a barra superior */
+.top-bar {
+  background-color: #5cb85c; /* Verde mais forte */
+  padding: 20px; /* Aumenta o padding para aumentar a altura */
+  color: #fff; /* Cor do texto branco */
+  display: flex; /* Ativa o layout flexível */
+  justify-content: space-between; /* Distribui os itens ao longo da barra */
+  align-items: center; /* Centraliza verticalmente os itens */
+}
+
+/* Estilos para o lado esquerdo da barra superior */
+.top-bar .left {
+  text-align: center; /* Centraliza horizontalmente o texto */
+}
+
+/* Estilos para o lado direito da barra superior */
+.top-bar .right {
+  flex-shrink: 0; /* Impede que o botão seja redimensionado */
+}
+
+/* Estilos para o logo no centro da barra superior */
+.top-bar .center {
+  flex-grow: 1; /* Faz o item expandir para ocupar o espaço restante */
+  text-align: center; /* Centraliza horizontalmente o texto */
+}
+
+
+/* Estilos para o rodapé */
+.footer {
+  background-color: #5cb85c; /* Verde mais forte */
+  padding: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+}
+
+/* Estilos para texto centralizado */
+.centered {
+  text-align: center;
+}
+
+/* Estilos gerais */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
